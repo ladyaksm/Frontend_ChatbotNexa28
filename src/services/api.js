@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API_BASE_URL = "http://backend:5000"
+const API_BASE_URL = "https://uricolytic-tawny-pseudohistorical.ngrok-free.dev"
 
 
 const apiClient = axios.create({

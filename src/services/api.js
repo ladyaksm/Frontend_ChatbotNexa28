@@ -2,11 +2,11 @@ import axios from "axios"
 
 const API_BASE_URL = "https://uricolytic-tawny-pseudohistorical.ngrok-free.dev"
 
-
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
   headers: {
     "Content-Type": "application/json",
+    "ngrok-skip-browser-warning": "true"  // ← TAMBAH INI buat bypass ngrok warning
   },
 })
 
